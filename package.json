@@ -1,27 +1,22 @@
 {
-  "name": "impactacademy",
-  "version": "0.1.0",
+  "name": "impact-academy",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "setup" : "npm install && npm run start",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "16.0.1",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "next": "14.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "5.4.5",
+    "@types/react": "18.2.21",
+    "@types/node": "20.7.4"
   }
 }
