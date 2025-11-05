@@ -18,5 +18,3 @@ export default function Page() {
     </>
   )
 }
-
-// Uppando o site
