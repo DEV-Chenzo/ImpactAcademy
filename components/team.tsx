@@ -3,7 +3,7 @@ import React from 'react'
 const members = [
   { name: 'Crislan Silva', role: 'CEO', img: 'https://wallpapercave.com/wp/wp7802840.jpg' },
   { name: 'Tiago Carvalho', role: 'Diretor de Segurança e Desenvolvedor', img: 'https://wallpapercave.com/wp/wp7802840.jpg' },
-  { name: 'Robert Vicenzo', role: 'Programador e TI', img: 'https://wallpapercave.com/wp/wp7802840.jpg' },
+  { name: 'Robert Vicenzo', role: 'Designer UX/UI e Desenvolvedor', img: 'https://wallpapercave.com/wp/wp7802840.jpg' },
   { name: 'Samuel', role: 'Telemarketing', img: 'https://wallpapercave.com/wp/wp7802840.jpg' }
 ]
 
