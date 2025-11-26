@@ -2,6 +2,19 @@
 
 /* Fonte Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
+/*  ===========================
+   VARIABLE CSS (se necessário)
+   =========================== */
+
+:root {
+  gradient-primary: linear-gradient(
+    90deg,
+    #d6bc68 0%,
+    #dcaf56 50%,
+    #dec067 75%,
+    #c89116 100%
+  );
+}
 
 /* ===========================
    RESET E BASE
@@ -22,6 +35,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.4;
+}
+
+.color-gold {
+  color: transparent;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 /* ===========================
