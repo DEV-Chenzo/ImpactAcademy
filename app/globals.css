@@ -156,7 +156,7 @@ body {
 }
 
 .btn-outline:hover {
-  background: #ffc107;
+  background: var(--gradient-primary);
   color: #111;
   transform: translateY(-3px);
 }
