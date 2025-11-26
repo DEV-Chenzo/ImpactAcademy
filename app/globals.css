@@ -110,7 +110,6 @@ body {
 }
 
 .hero h1 span {
-  color: #ffc107; /* dourado */
   display: block;
   font-weight: 800;
   font-size: 56px;
@@ -129,7 +128,7 @@ body {
   font-weight: 700;
   border-radius: 6px;
   cursor: pointer;
-  border: 2px solid #ffc107;
+  border: 2px solid var(--gradient-primary);
   transition: all 0.22s ease;
   text-transform: uppercase;
   letter-spacing: 0.6px;
