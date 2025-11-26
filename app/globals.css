@@ -7,7 +7,7 @@
    =========================== */
 
 :root {
-  gradient-primary: linear-gradient(
+  --gradient-primary: linear-gradient(
     90deg,
     #d6bc68 0%,
     #dcaf56 50%,
