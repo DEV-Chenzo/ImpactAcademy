@@ -157,7 +157,7 @@ body {
 
 .btn-outline:hover {
   background: var(--gradient-primary);
-  color: #111;
+  color: #fffced;
   transform: translateY(-3px);
 }
 
