@@ -31,7 +31,7 @@ export default function Hero() {
       <div className="container">
         <div className="hero-inner">
           <h1>
-            O Futuro da Educação Digital <span className='color-gold' >Começa Aqui!!!</span>
+            O Futuro da Educação Digital <span className="color-gold" >Começa Aqui!!!</span>
           </h1>
 
           <div className="cta" role="navigation" aria-label="Chamada para ação">
