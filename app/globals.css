@@ -53,7 +53,7 @@ body {
   height: 100vh; /* ocupa a viewport inteira */
   display: flex;
   align-items: center;
-  filter: blur(1.1);
+  filter: brightness(1.1);
   /* imagem de fundo - usa URL externa igual ao HTML original */
   background: url("./assets/image/hero.png") left
     center/cover no-repeat;
