@@ -86,6 +86,7 @@ body {
 
 /* conteudo principal do hero alinhado à esquerda (como no print) */
 .hero .container {
+  background-image: url("assets/image/hero.png");
   position: relative;
   z-index: 2;
   max-width: 1100px;

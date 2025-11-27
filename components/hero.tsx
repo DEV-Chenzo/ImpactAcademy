@@ -1,5 +1,6 @@
 'use client'
 import React, { useEffect } from 'react'
+import Image from 'next/image'
 
 export default function Hero() {
   useEffect(() => {
@@ -25,7 +26,13 @@ export default function Hero() {
   return (
     <header className="hero" role="banner">
       <div className="logo">
-        <img src="https://wallpapercave.com/wp/wp7802840.jpg" alt="Impact Academy Logo" />
+        <Image 
+          src="https://wallpapercave.com/wp/wp7802840.jpg" 
+          alt="Impact Academy Logo"
+          width={44}
+          height={44}
+          priority
+        />
       </div>
 
       <div className="container">
