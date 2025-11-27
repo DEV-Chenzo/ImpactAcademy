@@ -54,7 +54,7 @@ body {
   display: flex;
   align-items: center;
   /* imagem de fundo - usa URL externa igual ao HTML original */
-  background: url("https://wallpapercave.com/wp/wp7802840.jpg") left
+  background: url("./assets/image/hero.png") left
     center/cover no-repeat;
   overflow: hidden;
 }
@@ -86,7 +86,7 @@ body {
 
 /* conteudo principal do hero alinhado à esquerda (como no print) */
 .hero .container {
-  background-image: url("assets/image/hero.png");
+
   position: relative;
   z-index: 2;
   max-width: 1100px;
